@@ -9,16 +9,30 @@
 /* Begin PBXBuildFile section */
 		43D3EC6A29D9B646005F6CD2 /* RandomSwiftUIPLaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC6929D9B646005F6CD2 /* RandomSwiftUIPLaygroundApp.swift */; };
 		43D3EC6C29D9B646005F6CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC6B29D9B646005F6CD2 /* ContentView.swift */; };
-		43D3EC6E29D9B648005F6CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D3EC6D29D9B648005F6CD2 /* Assets.xcassets */; };
-		43D3EC7129D9B648005F6CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D3EC7029D9B648005F6CD2 /* Preview Assets.xcassets */; };
+		43D3EC7B29D9B71C005F6CD2 /* NavContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC7A29D9B71C005F6CD2 /* NavContentView.swift */; };
+		43D3EC8029D9C210005F6CD2 /* NavStackNavLinkContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC7F29D9C210005F6CD2 /* NavStackNavLinkContentView.swift */; };
+		43D3EC8229D9C24F005F6CD2 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC8129D9C24F005F6CD2 /* CarDetailView.swift */; };
+		43D3EC8729D9CF77005F6CD2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC8629D9CF77005F6CD2 /* Car.swift */; };
+		43D3EC8929D9CF83005F6CD2 /* CarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC8829D9CF83005F6CD2 /* CarType.swift */; };
+		43D3EC8E29D9D288005F6CD2 /* NavStackDestinationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC8D29D9D288005F6CD2 /* NavStackDestinationContentView.swift */; };
+		43D3EC9029D9D3FF005F6CD2 /* NavStackValueBasedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC8F29D9D3FF005F6CD2 /* NavStackValueBasedContentView.swift */; };
+		43D3EC9229D9D6FA005F6CD2 /* CarTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC9129D9D6FA005F6CD2 /* CarTypeView.swift */; };
+		43D3EC9529D9D893005F6CD2 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3EC9429D9D893005F6CD2 /* ViewType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43D3EC6629D9B646005F6CD2 /* RandomSwiftUIPLayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomSwiftUIPLayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D3EC6629D9B646005F6CD2 /* NavigationStackSwiftUIPLayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationStackSwiftUIPLayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D3EC6929D9B646005F6CD2 /* RandomSwiftUIPLaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSwiftUIPLaygroundApp.swift; sourceTree = "<group>"; };
 		43D3EC6B29D9B646005F6CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		43D3EC6D29D9B648005F6CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43D3EC7029D9B648005F6CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43D3EC7A29D9B71C005F6CD2 /* NavContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavContentView.swift; sourceTree = "<group>"; };
+		43D3EC7F29D9C210005F6CD2 /* NavStackNavLinkContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackNavLinkContentView.swift; sourceTree = "<group>"; };
+		43D3EC8129D9C24F005F6CD2 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		43D3EC8629D9CF77005F6CD2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		43D3EC8829D9CF83005F6CD2 /* CarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarType.swift; sourceTree = "<group>"; };
+		43D3EC8D29D9D288005F6CD2 /* NavStackDestinationContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavStackDestinationContentView.swift; sourceTree = "<group>"; };
+		43D3EC8F29D9D3FF005F6CD2 /* NavStackValueBasedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackValueBasedContentView.swift; sourceTree = "<group>"; };
+		43D3EC9129D9D6FA005F6CD2 /* CarTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTypeView.swift; sourceTree = "<group>"; };
+		43D3EC9429D9D893005F6CD2 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +49,7 @@
 		43D3EC5D29D9B646005F6CD2 = {
 			isa = PBXGroup;
 			children = (
-				43D3EC6829D9B646005F6CD2 /* RandomSwiftUIPLayground */,
+				43D3EC6829D9B646005F6CD2 /* NavigationStackSwiftUIPLayground */,
 				43D3EC6729D9B646005F6CD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +57,83 @@
 		43D3EC6729D9B646005F6CD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43D3EC6629D9B646005F6CD2 /* RandomSwiftUIPLayground.app */,
+				43D3EC6629D9B646005F6CD2 /* NavigationStackSwiftUIPLayground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43D3EC6829D9B646005F6CD2 /* RandomSwiftUIPLayground */ = {
+		43D3EC6829D9B646005F6CD2 /* NavigationStackSwiftUIPLayground */ = {
+			isa = PBXGroup;
+			children = (
+				43D3EC7C29D9B772005F6CD2 /* Main */,
+				43D3EC8529D9CF5A005F6CD2 /* Models */,
+				43D3EC7E29D9B7AF005F6CD2 /* NavigationStack */,
+				43D3EC7929D9B68B005F6CD2 /* NavigationView */,
+				43D3EC9329D9D7CF005F6CD2 /* SharedComponentViews */,
+				43D3EC7D29D9B77F005F6CD2 /* Other */,
+			);
+			path = NavigationStackSwiftUIPLayground;
+			sourceTree = "<group>";
+		};
+		43D3EC7929D9B68B005F6CD2 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				43D3EC7A29D9B71C005F6CD2 /* NavContentView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		43D3EC7C29D9B772005F6CD2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				43D3EC6929D9B646005F6CD2 /* RandomSwiftUIPLaygroundApp.swift */,
-				43D3EC6B29D9B646005F6CD2 /* ContentView.swift */,
-				43D3EC6D29D9B648005F6CD2 /* Assets.xcassets */,
-				43D3EC6F29D9B648005F6CD2 /* Preview Content */,
 			);
-			path = RandomSwiftUIPLayground;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		43D3EC6F29D9B648005F6CD2 /* Preview Content */ = {
+		43D3EC7D29D9B77F005F6CD2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				43D3EC7029D9B648005F6CD2 /* Preview Assets.xcassets */,
+				43D3EC6B29D9B646005F6CD2 /* ContentView.swift */,
 			);
-			path = "Preview Content";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		43D3EC7E29D9B7AF005F6CD2 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				43D3EC7F29D9C210005F6CD2 /* NavStackNavLinkContentView.swift */,
+				43D3EC8D29D9D288005F6CD2 /* NavStackDestinationContentView.swift */,
+				43D3EC8F29D9D3FF005F6CD2 /* NavStackValueBasedContentView.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		43D3EC8529D9CF5A005F6CD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43D3EC8629D9CF77005F6CD2 /* Car.swift */,
+				43D3EC8829D9CF83005F6CD2 /* CarType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43D3EC9329D9D7CF005F6CD2 /* SharedComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				43D3EC9429D9D893005F6CD2 /* ViewType.swift */,
+				43D3EC8129D9C24F005F6CD2 /* CarDetailView.swift */,
+				43D3EC9129D9D6FA005F6CD2 /* CarTypeView.swift */,
+			);
+			path = SharedComponentViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43D3EC6529D9B646005F6CD2 /* RandomSwiftUIPLayground */ = {
+		43D3EC6529D9B646005F6CD2 /* NavigationStackSwiftUIPLayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43D3EC7429D9B648005F6CD2 /* Build configuration list for PBXNativeTarget "RandomSwiftUIPLayground" */;
+			buildConfigurationList = 43D3EC7429D9B648005F6CD2 /* Build configuration list for PBXNativeTarget "NavigationStackSwiftUIPLayground" */;
 			buildPhases = (
 				43D3EC6229D9B646005F6CD2 /* Sources */,
 				43D3EC6329D9B646005F6CD2 /* Frameworks */,
@@ -82,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = RandomSwiftUIPLayground;
+			name = NavigationStackSwiftUIPLayground;
 			productName = RandomSwiftUIPLayground;
-			productReference = 43D3EC6629D9B646005F6CD2 /* RandomSwiftUIPLayground.app */;
+			productReference = 43D3EC6629D9B646005F6CD2 /* NavigationStackSwiftUIPLayground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43D3EC6129D9B646005F6CD2 /* Build configuration list for PBXProject "RandomSwiftUIPLayground" */;
+			buildConfigurationList = 43D3EC6129D9B646005F6CD2 /* Build configuration list for PBXProject "NavigationStackSwiftUIPLayground" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43D3EC6529D9B646005F6CD2 /* RandomSwiftUIPLayground */,
+				43D3EC6529D9B646005F6CD2 /* NavigationStackSwiftUIPLayground */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D3EC7129D9B648005F6CD2 /* Preview Assets.xcassets in Resources */,
-				43D3EC6E29D9B648005F6CD2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D3EC8E29D9D288005F6CD2 /* NavStackDestinationContentView.swift in Sources */,
+				43D3EC8029D9C210005F6CD2 /* NavStackNavLinkContentView.swift in Sources */,
+				43D3EC8729D9CF77005F6CD2 /* Car.swift in Sources */,
+				43D3EC9229D9D6FA005F6CD2 /* CarTypeView.swift in Sources */,
 				43D3EC6C29D9B646005F6CD2 /* ContentView.swift in Sources */,
+				43D3EC9529D9D893005F6CD2 /* ViewType.swift in Sources */,
+				43D3EC7B29D9B71C005F6CD2 /* NavContentView.swift in Sources */,
+				43D3EC8929D9CF83005F6CD2 /* CarType.swift in Sources */,
 				43D3EC6A29D9B646005F6CD2 /* RandomSwiftUIPLaygroundApp.swift in Sources */,
+				43D3EC8229D9C24F005F6CD2 /* CarDetailView.swift in Sources */,
+				43D3EC9029D9D3FF005F6CD2 /* NavStackValueBasedContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +334,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RandomSwiftUIPLayground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.randomplayground.RandomSwiftUIPLayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomplayground.NavigationStackSwiftUIPLayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -294,7 +361,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RandomSwiftUIPLayground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +373,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.randomplayground.RandomSwiftUIPLayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomplayground.NavigationStackSwiftUIPLayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43D3EC6129D9B646005F6CD2 /* Build configuration list for PBXProject "RandomSwiftUIPLayground" */ = {
+		43D3EC6129D9B646005F6CD2 /* Build configuration list for PBXProject "NavigationStackSwiftUIPLayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43D3EC7229D9B648005F6CD2 /* Debug */,
@@ -327,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43D3EC7429D9B648005F6CD2 /* Build configuration list for PBXNativeTarget "RandomSwiftUIPLayground" */ = {
+		43D3EC7429D9B648005F6CD2 /* Build configuration list for PBXNativeTarget "NavigationStackSwiftUIPLayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43D3EC7529D9B648005F6CD2 /* Debug */,

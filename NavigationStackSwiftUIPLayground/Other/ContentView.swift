@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  RandomSwiftUIPLayground
+//  NavigationStackSwiftUIPLayground
 //
 //  Created by Nishant Bhasin on 2023-04-02.
 //
